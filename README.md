@@ -4,8 +4,10 @@
 * Use the below command to get started.
 
 `wget -qO- https://gitlab.com/MexsonFernandes/bbb-install-script/-/raw/convid/bbb-install.sh | 
-bash -s -- -w 
--a -w -g
+bash -s --
+-a
+-w 
+-g
 -s convid.robomx.tech -e admin@robomx.tech -t
 -v xenial-220
 `
@@ -25,7 +27,6 @@ Use existing command with following add on.
 
 ## Important Notes
 * Replace **bigbluebutton/greenlight** with **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui:latest**.
-* Every **greenlight-v2** release of greenlight is replaced by **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui**.
 
 ## Requirements
 
