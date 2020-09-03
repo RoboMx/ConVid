@@ -22,6 +22,9 @@ Note: Some important flags
 Use existing command with following add on.
 `-s sitename.maindomain.tld -e email@address.tld` 
 
+## Important Notes
+* Replace **bigbluebutton/greenlight** with **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui:latest**.
+* Every **v2** release of greenlight is replaced by **latest**.
 
 ## Requirements
 
@@ -31,3 +34,4 @@ Use existing command with following add on.
 ## Reference
 * [BBB install script](https://github.com/bigbluebutton/bbb-install)
 * [Scalelite Github Repository](https://github.com/blindsidenetworks/scalelite)
+* [Scaling BBB](https://events.ubuntunet.net/event/29/attachments/201/246/Installing_and_Scaling_BBB.pdf)
