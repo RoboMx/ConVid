@@ -3,7 +3,7 @@
 ## How to install
 * Use the below command to get started.
 
-`wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | 
+`wget -qO- https://gitlab.com/MexsonFernandes/bbb-install-script/-/raw/convid/bbb-install.sh | 
 bash -s -- -w -v xenial-22
 -a -w -g
 -s convid.robomx.tech -e admin@robomx.tech -t
