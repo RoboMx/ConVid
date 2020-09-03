@@ -4,10 +4,10 @@
 * Use the below command to get started.
 
 `wget -qO- https://gitlab.com/MexsonFernandes/bbb-install-script/-/raw/convid/bbb-install.sh | 
-bash -s -- -w -v xenial-22
+bash -s -- -w 
 -a -w -g
 -s convid.robomx.tech -e admin@robomx.tech -t
--v xenial-22
+-v xenial-220
 `
 
 This will install Greenlight dashboard which support video recording and auth sessions.
@@ -15,6 +15,7 @@ This will install Greenlight dashboard which support video recording and auth se
 Note: Some important flags
 * Add '-t' to install the HTML5 client.
 * Add '-g' for greenlight
+* Add '-a' to integrate test apis.
 * Add '-w' to install firewall which restricts access to port range of range 16384-32768.
 
 
@@ -24,7 +25,7 @@ Use existing command with following add on.
 
 ## Important Notes
 * Replace **bigbluebutton/greenlight** with **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui:latest**.
-* Every **v2** release of greenlight is replaced by **latest**.
+* Every **greenlight-v2** release of greenlight is replaced by **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui**.
 
 ## Requirements
 
