@@ -3,7 +3,7 @@
 ## How to install
 * Use the below command to get started.
 
-`wget -qO- https://gitlab.com/MexsonFernandes/bbb-install-script/-/raw/convid/bbb-install.sh | 
+`wget -qO- https://gitlab.com/robomx/bbb-install-script/-/raw/convid/bbb-install.sh | 
 bash -s --
 -a
 -w 
@@ -26,7 +26,7 @@ Use existing command with following add on.
 `-s sitename.maindomain.tld -e email@address.tld` 
 
 ## Important Notes
-* Replace **bigbluebutton/greenlight** with **registry.gitlab.com/mexsonfernandes/bbb-greenlight-ui:latest**.
+* Replace **bigbluebutton/greenlight** with **registry.gitlab.com/robomx/bbb-greenlight-ui:latest**.
 
 ## Requirements
 
