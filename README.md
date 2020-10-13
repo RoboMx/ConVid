@@ -8,7 +8,7 @@ bash -s --
 -a
 -w 
 -g
--s convid.robomx.tech -e admin@robomx.tech -t
+-s convid.robomx.com -e ask@robomx.com -t
 -v xenial-220
 `
 
