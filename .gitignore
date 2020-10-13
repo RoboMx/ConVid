@@ -1,0 +1,50 @@
+/bbb-install-script/.git/
+/bbb-install-script/put.sh
+/bbb-install-script/.DS_Store
+/bbb-install-script/images/*.xcf
+
+# Ignore bundler config.
+/bbb-greenlight-ui/.bundle
+/bbb-greenlight-uivendor/bundle
+
+# Ignore the default SQLite database.
+/bbb-greenlight-ui/db/*.sqlite3
+/bbb-greenlight-ui/db/*.sqlite3-journal
+
+# Ignore static assets.
+/bbb-greenlight-ui/public/system/**
+/bbb-greenlight-ui/public/assets/**
+/bbb-greenlight-ui/public/b/**
+
+# Ignore uploaded files
+/bbb-greenlight-ui/storage
+
+# Ignore production paths.
+/bbb-greenlight-ui/db/production
+/bbb-greenlight-ui/db/production-postgres
+
+# Ignore all logfiles and tempfiles.
+/bbb-greenlight-ui/log/*
+/bbb-greenlight-ui/tmp
+!/log/.keep
+
+# Ignore Byebug command history file.
+/bbb-greenlight-ui.byebug_history
+
+# Ignore environment configuration.
+/bbb-greenlight-ui/.env
+/bbb-greenlight-ui/env
+
+# Ignore yarn configs
+/bbb-greenlight-ui/node_modules
+
+# IDEs
+/bbb-greenlight-ui/.idea
+/bbb-greenlight-ui/.idea/**
+/bbb-greenlight-ui/.vscode
+/bbb-greenlight-ui/.vscode/**
+
+/bbb-greenlight-ui/config/terms.md
+/bbb-greenlight-ui/coverage*
+
+/atom-sftp-sync.json

@@ -3,11 +3,13 @@
 ## How to install
 * Use the below command to get started.
 
-`wget -qO- https://ubuntu.bigbluebutton.org/bbb-install.sh | 
-bash -s -- -w -v xenial-22
--a -w -g
+`wget -qO- https://gitlab.com/robomx/bbb-install-script/-/raw/convid/bbb-install.sh | 
+bash -s --
+-a
+-w 
+-g
 -s convid.robomx.tech -e admin@robomx.tech -t
--v xenial-22
+-v xenial-220
 `
 
 This will install Greenlight dashboard which support video recording and auth sessions.
@@ -15,6 +17,7 @@ This will install Greenlight dashboard which support video recording and auth se
 Note: Some important flags
 * Add '-t' to install the HTML5 client.
 * Add '-g' for greenlight
+* Add '-a' to integrate test apis.
 * Add '-w' to install firewall which restricts access to port range of range 16384-32768.
 
 
@@ -22,6 +25,8 @@ Note: Some important flags
 Use existing command with following add on.
 `-s sitename.maindomain.tld -e email@address.tld` 
 
+## Important Notes
+* Replace **bigbluebutton/greenlight** with **registry.gitlab.com/robomx/bbb-greenlight-ui:latest**.
 
 ## Requirements
 
@@ -31,3 +36,4 @@ Use existing command with following add on.
 ## Reference
 * [BBB install script](https://github.com/bigbluebutton/bbb-install)
 * [Scalelite Github Repository](https://github.com/blindsidenetworks/scalelite)
+* [Scaling BBB](https://events.ubuntunet.net/event/29/attachments/201/246/Installing_and_Scaling_BBB.pdf)

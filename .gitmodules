@@ -1,0 +1,6 @@
+[submodule "bbb-greenlight-ui"]
+	path = bbb-greenlight-ui
+	url = https://gitlab.com/robomx/bbb-greenlight-ui
+[submodule "bbb-install-script"]
+	path = bbb-install-script
+	url = https://gitlab.com/robomx/bbb-install-script
